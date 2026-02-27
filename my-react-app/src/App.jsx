@@ -6,6 +6,7 @@ import SearchBar from './components/SeachBar'
 import Products from './features/products/Products'
 import {BrowserRouter, Route, Routes} from "react-router-dom"
 import Cart from './features/cart/Cart'
+import TanStack from './components/TanStackDemo'
 
 function App() {
   
@@ -31,7 +32,9 @@ function App() {
     <div className='p-3 m-3'>
       <div><MediaCard/></div> 
     </div> */}
+    <TanStack/>
     </>
+    
   )
 }
 
